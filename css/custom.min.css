@@ -1,0 +1,30 @@
+#hero {
+    background-image: url("../img/bg-hero.jpg")
+}
+
+#the-wedding-event {
+    background-image: url("../img/bg-the-wedding-event.jpg")
+}
+
+#proposed {
+    background-image: url("../img/bg-proposed.jpg")
+}
+
+#footer {
+    background-image: url("../img/bg-footer.jpg")
+}
+
+ul.navbar-nav {
+    justify-content: space-around;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.left-div {
+    justify-content: end;
+}
+
+
+/*# sourceMappingURL=custom.min.css.map */
