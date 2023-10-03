@@ -33,7 +33,7 @@ ul.navbar-nav {
 
 .gallery-grid {
     justify-content: space-around;
-    margin-left: 0px !important;
+    margin-left: -11px !important;
 }
 
 .gallery-grid .item {
