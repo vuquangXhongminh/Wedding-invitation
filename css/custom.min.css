@@ -49,9 +49,17 @@ ul.navbar-nav {
     height: 720px;
 }
 
+.margin10 {
+    margin-top: 10%;
+}
+
 @media (max-width: 991px) {
     .slide {
         height: 540px;
+    }
+
+    .margin10 {
+        margin-top: unset;
     }
 }
 
