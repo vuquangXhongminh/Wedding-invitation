@@ -1,0 +1,302 @@
+    @font-face {
+        font-family: font1;
+        src: url(../font/SFUEdwardianScriptRegular.TTF);
+    }
+    
+    @font-face {
+        font-family: font2;
+        src: url(../font/MTD-Grange.otf);
+    }
+    
+    @font-face {
+        font-family: font3;
+        src: url(../font/UVNKieu_R.TTF);
+    }
+    
+    @font-face {
+        font-family: font4;
+        src: url(../font/MTD-Great-Vibes.otf);
+    }
+    
+    #hero {
+        background-image: url("../img/bg-hero.jpg");
+        height: 820px;
+    }
+    
+    #the-wedding-event {
+        background-image: url("../img/img_bg_3.JPG")
+    }
+    
+    #proposed {
+        background-image: url("../img/bg-proposed.jpg")
+    }
+    
+    #footer {
+        background-image: url("../img/bg-footer.jpg")
+    }
+    
+    #desc {
+        bottom: 30px;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+    }
+    
+    #desc h1 {
+        font-size: 80px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-weight: bold;
+        color: #fff;
+        font-family: font4;
+    }
+    
+    .title-pink {
+        font-size: 60px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        color: #F14E95;
+        font-family: font4;
+    }
+    
+    .title-white {
+        font-size: 60px;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        color: #fff;
+        font-family: font4;
+    }
+    
+    @media screen and (max-width: 768px) {
+        #desc h1 {
+            font-size: 60px;
+        }
+        .title-pink {
+            font-size: 40px;
+        }
+        .title-white {
+            font-size: 40px;
+        }
+        #desc h2 {
+            font-size: 40px;
+        }
+    }
+    
+    #desc h2 {
+        font-size: 60px;
+        margin-bottom: 20px;
+        color: #fff;
+        font-family: font2;
+    }
+    
+    ul.navbar-nav {
+        justify-content: space-around;
+    }
+    
+    .text-align-justify {
+        text-align: justify;
+    }
+    
+    .left-div {
+        justify-content: end;
+    }
+    
+    .slide-video {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .gallery-grid {
+        justify-content: space-around;
+        margin-left: -11px !important;
+    }
+    
+    .gallery-grid .item {
+        padding: 0 !important;
+    }
+    
+    .gallery-grid figure {
+        padding: 11px !important;
+    }
+    
+    .slide {
+        width: 100%;
+        height: 720px;
+    }
+    
+    .margin10 {
+        margin-top: 10%;
+    }
+    
+    @media (max-width: 991px) {
+        .slide {
+            height: 540px;
+        }
+        .margin10 {
+            margin-top: unset;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .slide {
+            height: 360pxpx;
+        }
+    }
+    /* Couple */
+    
+    .couple-half {
+        width: 50%;
+        float: left;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .couple-half {
+            width: 100%;
+        }
+    }
+    
+    .couple-half h3 {
+        font-family: font2;
+        color: #F14E95;
+        font-size: 50px;
+    }
+    
+    .couple-half .groom,
+    .couple-half .bride {
+        float: left;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        width: 160px;
+        height: 160px;
+    }
+    
+    .couple-half .groom img,
+    .couple-half .bride img {
+        width: 160px;
+        height: 160px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+        margin-top: 5px;
+    }
+    
+    @media screen and (max-width: 480px) {
+        .couple-half .groom,
+        .couple-half .bride {
+            width: 100%;
+            height: 140px;
+        }
+        .couple-half .groom img,
+        .couple-half .bride img {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+        }
+    }
+    
+    .couple-half .groom {
+        float: right;
+        margin-right: 5px;
+    }
+    
+    .couple-half .bride {
+        float: left;
+        margin-left: 5px;
+    }
+    
+    .couple-half .desc-groom {
+        padding-right: 180px;
+        text-align: right;
+    }
+    
+    .couple-half .desc-bride {
+        padding-left: 180px;
+        text-align: left;
+    }
+    
+    @media screen and (max-width: 480px) {
+        .couple-half .groom,
+        .couple-half .bride {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .couple-half .desc-groom {
+            padding-right: 0;
+            text-align: center;
+        }
+        .couple-half .desc-bride {
+            padding-left: 0;
+            text-align: center;
+        }
+    }
+    
+    .heart {
+        position: absolute;
+        padding-top: 45px;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        animation: pulse 1s ease infinite;
+    }
+    
+    .heart i {
+        font-size: 20px;
+        background: #fff;
+        padding: 20px;
+        color: #F14E95;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .heart {
+            display: none;
+        }
+    }
+    
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.25);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    /*Event*/
+    
+    .bg-event {
+        color: #fff;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.1);
+        text-align: center;
+    }
+    
+    .sep-line {
+        border-top: 2px solid;
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .wedding-party {
+        margin-top: 25px;
+    }
+    
+    @media screen and (max-width: 991px) {
+        .wedding-party {
+            margin-top: 0;
+        }
+    }
+    
+    .gallery-grid a {
+        cursor: auto;
+    }
+    /*# sourceMappingURL=custom.min.css.map */
