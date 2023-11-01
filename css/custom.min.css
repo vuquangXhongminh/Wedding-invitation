@@ -22,6 +22,12 @@
         background-image: url("../img/bg-hero.jpg");
         height: 820px;
     }
+
+    #break-page {
+        background-image: url("../img/breakpage.png");
+        height: 720px;
+        padding-top: 10px;
+    }
     
     #the-wedding-event {
         background-image: url("../img/img_bg_3.JPG")
@@ -32,7 +38,7 @@
     }
     
     #footer {
-        background-image: url("../img/bg-footer.JPG")
+        background-image: url("../img/bg-footer.jpg")
     }
     
     #desc {
@@ -55,8 +61,12 @@
         font-size: 60px;
         margin-bottom: 10px;
         line-height: 1.5;
-        color: #F14E95;
+        color: #CD853F;
         font-family: font4;
+    }
+
+    .text-right {
+        text-align: end;
     }
     
     .title-white {
@@ -157,7 +167,7 @@
     
     .couple-half h3 {
         font-family: font2;
-        color: #F14E95;
+        color: #CD853F;
         font-size: 50px;
     }
     
@@ -170,6 +180,10 @@
         border-radius: 50%;
         width: 160px;
         height: 160px;
+    }
+
+    .circle-image img {
+        border-radius: 50%;
     }
     
     .couple-half .groom img,
@@ -215,6 +229,25 @@
     .couple-half .desc-bride {
         padding-left: 180px;
         text-align: left;
+    }
+
+    #testimonial {
+        border: 2px solid rgba(255, 255, 255, 1);
+        color: #000;
+    }
+
+    #testimonial .title-pink{
+        font-size: 40px;
+    }
+
+    #testimonial img {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        #testimonial .title-pink{
+            font-size: 25px;
+        }
     }
     
     @media screen and (max-width: 480px) {
