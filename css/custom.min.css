@@ -23,6 +23,10 @@
         height: 820px;
     }
 
+    .container {
+        max-width : 1600px;
+    }
+
     #break-page {
         background-image: url("../img/breakpage.png");
         height: 720px;
