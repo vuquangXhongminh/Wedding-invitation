@@ -29,7 +29,7 @@
 
     #break-page {
         background-image: url("../img/breakpage.png");
-        height: 720px;
+        height: 900px;
         padding-top: 10px;
     }
     
@@ -80,6 +80,12 @@
         color: #fff;
         font-family: font4;
     }
+
+     @media screen and (min-width: 1921px) {
+          #hero {
+              height: 1080px;
+          }
+     }
     
     @media screen and (max-width: 768px) {
         #desc h1 {
